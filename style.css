@@ -22,6 +22,7 @@ body {
     padding-top: 12px;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .logo {
@@ -66,6 +67,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
     padding: 50px 0px;
     gap: 50px;
 }
@@ -92,12 +94,35 @@ body {
     width: 200px;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-shrink: 0;
+}
+
+quote {
+    font-size: 36px;
+    font-style: italic;
+    margin: 0px 15%;
+}
+
+author {
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 20%;
+}
+
 .footer {
     display: flex;
     height: 75px;
     justify-content: center;
     align-items: center;
     margin-top: auto;
+    flex-shrink: 0;
 }
 
 p, h1, h2 {
