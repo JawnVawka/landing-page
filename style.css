@@ -44,6 +44,7 @@ body {
     height: 500px;
     gap: 40px;
     background-color: #1f2937;
+    flex-shrink: 0;
 }
 
 .left {
@@ -60,6 +61,37 @@ body {
     height: auto;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+    gap: 50px;
+}
+
+.photos {
+    display: flex;
+    gap: 50px;
+}
+
+.photos img {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.photos p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #1f2937;
+    text-align: center;
+}
+
+.card {
+    width: 200px;
+}
+
 .footer {
     display: flex;
     height: 75px;
@@ -68,7 +100,7 @@ body {
     margin-top: auto;
 }
 
-p, h1 {
+p, h1, h2 {
     margin: 0px;
     padding: 0px;
 }
@@ -77,6 +109,12 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 p {
